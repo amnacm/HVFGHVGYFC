@@ -1,0 +1,90 @@
+@media(max-width: 768px){
+  #first-img-md, #second-img-md, #third-img-md{
+    display: none;
+  }
+  #first-img-overlay{
+    font-size: 5.5vw
+  }
+  #header{
+    height: 76px;
+    padding: 14px;
+  }
+  #brand-logo{
+    height: 3em;
+  }
+  body{
+    margin-top: 75px;
+   
+  }
+  #first-img-overlay{
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media(min-width: 769px){
+  #first-img-sm, #second-img-sm, #third-img-sm{
+    display: none;
+  }
+  #header{
+    height: 122px;
+    padding: 24px;
+  }
+  #brand-logo{
+    height: 4.8em;
+  }
+  #first-img-overlay{
+    justify-content: center;
+  }
+  body{
+    margin-top: 75px;
+    
+  }
+}
+#header{
+  background-color:  #00ae44;
+  position: fixed;
+  z-index: 1000;
+  height: 76px;
+  padding: 14px;
+  top: 0;
+}
+#brand-logo{
+  height: 3em;
+}
+  body{
+  font-family: Korolev Medium; 
+
+}
+
+.navbar{
+  padding: 0;
+
+}
+
+.navbar .container {
+  max-width: 100%; 
+} 
+.image{
+  width: 29px
+}
+#header {
+  top: 0;
+}
+.positively{
+  font-size: 5.5vw
+}
+#secondimg{
+  background-color: rgba(6, 77, 6, 0.66);
+   height: 12rem
+}
+#thirdimg{
+  background-color: rgba(6, 77, 6, 0.66); 
+  height: 12rem
+}
+#footer p {
+  padding: 0px 13px;
+  font-size: 11px;
+  display: inline;
+}
